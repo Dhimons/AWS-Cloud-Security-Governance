@@ -13,6 +13,12 @@ This project establishes a hardened, enterprise-ready cloud infrastructure basel
 * **AWS CloudTrail Deployment:** Architected a comprehensive organizational tracking trail monitoring all multi-region global management events.
 * **Log Destination Security:** Configured the continuous event stream to pipe raw Read/Write API audit logs directly into a hardened, isolated S3 bucket for permanent logging.
 
+* #### Implementation Evidence:
+![AWS CloudTrail Active Trails Inventory](markup_1000070051.png)
+![AWS CloudTrail Configuration Details](markup_1000070052.png)
+
+
+
 ### 3. Identity Governance & Access Management (IAM)
 * **Least Privilege Enforcement:** Standardized access provisioning by binding structural policies to user environments, explicitly narrowing authorization parameters.
 * **Operational Scope:** Implemented granular permissions boundaries (e.g., ReadOnlyAccess frameworks) to safeguard critical infrastructure segments against unauthorized modifications.
